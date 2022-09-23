@@ -1,10 +1,12 @@
-import React from 'react'
-import NavBar from '../../components/Navbar/Navbar'
-import { headerData } from '../../data/headerData'
+import React from "react";
+import LandingPage from "../../components/LandingPage/LandingPage";
+import NavBar from "../../components/Navbar/Navbar";
 
 export default function HomePage() {
-    return (
-       <NavBar/>
-    )
+  return (
+    <>
+      <NavBar />
+      <LandingPage bg={'violet'}/>
+    </>
+  );
 }
-
