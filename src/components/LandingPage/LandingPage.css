@@ -1,6 +1,39 @@
-.div-contenedor-landing-page{
+.div-contenedor-landing-page {
     width: 100%;
     height: 90%;
     border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 
+}
+
+.contenedor-saludos {
+    width: 50%;
+    height: 90%;
+    border: 1px solid gray;
+
+}
+
+.contenedor-imagen-personal {
+    width: 50%;
+    height: 90%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contenedor_imagen_2{
+    width: 60%;
+    height: 60%;
+    z-index: 1;
+    border-radius: 10%; 
+}
+
+.imagen-principal {
+    width: 100%;
+    border-radius: 10%;
 }
