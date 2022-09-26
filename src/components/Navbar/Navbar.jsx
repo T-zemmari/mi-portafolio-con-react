@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="" variant="dark" style={{background:'violet'}} fixed="top">
+    <Navbar collapseOnSelect expand="lg" bg="" variant="dark" style={{background:'#dc3545'}} fixed="top">
       <Container>
-        <Navbar.Brand href="#home">Tarik Zemmari Kissani</Navbar.Brand>
+        <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

@@ -1,39 +1,25 @@
-.div-contenedor-landing-page {
-    width: 100%;
-    height: 90%;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
 
-}
-
-.contenedor-saludos {
-    width: 50%;
-    height: 90%;
-    border: 1px solid gray;
-
-}
-
-.contenedor-imagen-personal {
-    width: 50%;
-    height: 90%;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contenedor-principal{
     position: relative;
+    background: #dc3545;
+    height: 100vh;
 }
-
-.contenedor_imagen_2{
-    width: 60%;
-    height: 60%;
-    z-index: 1;
-    border-radius: 10%; 
-}
-
-.imagen-principal {
+.custom-shape-divider-bottom-1664218420 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    border-radius: 10%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1664218420 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1664218420 .shape-fill {
+    fill: #FFFFFF;
 }
