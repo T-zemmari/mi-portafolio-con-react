@@ -10,6 +10,7 @@ export default function LandingPage(props) {
         <div className="contenedor-saludo-mas-imagen">
           <div className="contenedor-saludo">
             <h1 className='h1-custom'>Hola !! <span>Soy Tarek Zemmari</span></h1>
+            <h2>Me encanta el desarrollo web</h2>
           </div>
           <div className="contenedor-imagen-principal">
             <img className="imagen-principal" src={ImagenPrincipal} alt="Tarek" />
