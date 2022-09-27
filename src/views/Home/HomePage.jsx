@@ -1,12 +1,13 @@
 import React from "react";
 import Contact from "../../components/Contact/Contact";
+import Header from "../../components/Header/Header";
 import LandingPage from "../../components/LandingPage/LandingPage";
 import NavBar from "../../components/Navbar/Navbar";
 
 export default function HomePage() {
   return (
     <>
-      <NavBar />
+      <Header />
       <LandingPage/>
       <Contact />
     </>
