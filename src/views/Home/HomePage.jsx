@@ -29,13 +29,11 @@ export default function HomePage() {
   }
   return (
     <>
-<Header />
-      <NavBar />
-      
+      <Header />
+      <NavBar />      
       <LandingPage />
-      {/* <About/> */}
-      {/* <Contact /> */}
-      {/* <ContactTwo /> */}
+       <About/> 
+      <ContactTwo />
     </>
   );
 }
