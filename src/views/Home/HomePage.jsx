@@ -27,7 +27,7 @@ export default function HomePage() {
       <Header/>
       <NavBar/>      
       <LandingPage/>
-      <About/> 
+      <About/>  
       <ContactTwo/>
     </>
   );
