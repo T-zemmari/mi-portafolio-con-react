@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 import "../../assets/contact-template/css/style.css";
-import { Divider, Grid } from "@mui/material";
+import Imagen from '../../assets/images/imagen_4.png';
+import './Contact-two.css';
+
 
 export default function ContactTwo() {
   const form = useRef();
@@ -124,7 +125,7 @@ export default function ContactTwo() {
                     </div>
                   </div>
                   <div className="col-md-3">
-                    hola
+                    <img className="imagen_contacto" src={Imagen} alt="contacto" />
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch">
                     <div id="map"></div>
