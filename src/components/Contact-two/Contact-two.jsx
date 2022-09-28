@@ -124,9 +124,7 @@ export default function ContactTwo() {
                       </form>
                     </div>
                   </div>
-                  <div className="col-md-3">
-                    <img className="imagen_contacto" src={Imagen} alt="contacto" />
-                  </div>
+               
                   <div className="col-md-5 d-flex align-items-stretch">
                     <div id="map"></div>
                   </div>
@@ -153,7 +151,7 @@ export default function ContactTwo() {
                       <div className="text">
                         <p>
                           <span>Phone:</span>{" "}
-                          <a href="tel://+34669217903" style={{'text-decoration':'none'}}>+ 34 669217903</a>
+                          <a href="tel://+34669217903" style={{textDecoration:'none'}}>+ 34 669217903</a>
                         </p>
                       </div>
                     </div>
@@ -166,7 +164,7 @@ export default function ContactTwo() {
                       <div className="text">
                         <p>
                           <span>Email:</span>{" "}
-                          <a href="tarek.zemmari@gmail.com" style={{'text-decoration':'none'}}>
+                          <a href="tarek.zemmari@gmail.com" style={{textDecoration:'none'}}>
                             tarek.zemmari@gmail.com
                           </a>
                         </p>
@@ -180,7 +178,7 @@ export default function ContactTwo() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Web:</span> <a style={{'text-decoration':'none'}} href="#">tarek-zemmari.com</a>
+                          <span>Web:</span> <a style={{textDecoration:'none'}} href="#">tarek-zemmari.com</a>
                         </p>
                       </div>
                     </div>
