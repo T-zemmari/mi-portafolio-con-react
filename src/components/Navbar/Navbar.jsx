@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
-  let background='linear-gradient(90deg, rgba(0, 138, 241, 1) 0%, rgba(70, 70, 70, 1) 84%, rgba(0, 95, 255, 1) 100%);'
+  let background="linear-gradient(90deg, rgba(0, 138, 241, 1) 0%, rgba(70, 70, 70, 1) 84%, rgba(0, 95, 255, 1) 100%)"
   return (
     <Navbar collapseOnSelect expand="lg" bg="" variant="dark" style={{background:background}} fixed="top">
       <Container>

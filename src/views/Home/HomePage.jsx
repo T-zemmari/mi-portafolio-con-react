@@ -1,5 +1,6 @@
 import React, { useEffect ,useState } from "react";
 import Contact from "../../components/Contact/Contact";
+import ContactTwo from "../../components/Contact/Contact-two";
 import Header from "../../components/Header/Header";
 import LandingPage from "../../components/LandingPage/LandingPage";
 import NavBar from "../../components/Navbar/Navbar";
@@ -31,7 +32,8 @@ export default function HomePage() {
       <NavBar showTopNavMenu={responsive.showTopNavMenu} />
       <Header />
       <LandingPage />
-      <Contact />
+      {/* <Contact /> */}
+      <ContactTwo />
     </>
   );
 }
