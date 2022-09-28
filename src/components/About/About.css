@@ -1,0 +1,16 @@
+.about-container {
+    width: 100%;
+    height: 100%;
+    padding: 10vh;
+}
+
+.contenedor-sobre-mi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-desc{
+    width: 50%;
+}

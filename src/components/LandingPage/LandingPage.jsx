@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
 import "./LandingPage.css";
 import ButtonCustomOne from "../Animations/Buttons/ButtonCustomOne";
 
@@ -7,7 +6,7 @@ export default function LandingPage(props) {
   return (
     <div className="contenedor-principal">
       <div className="Contenedor-saludo">
-        <div className="contenedor-saludo-mas-imagen justify-content-center animate__animated animate__backInRight">
+        <div className="contenedor-saludo-mas-imagen justify-content-center">
           <div className="contenedor-saludo title-container">
             <h1 className="h1-custom h1-custom-3 ">
               Hi !! <span>Soy Tarek Zemmari</span>
