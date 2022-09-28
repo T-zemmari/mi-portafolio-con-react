@@ -1,6 +1,7 @@
-import { Button } from "@mui/material";
 import React from "react";
+import { Button } from "@mui/material";
 import "./LandingPage.css";
+import ButtonCustomOne from "../Animations/Buttons/ButtonCustomOne";
 
 export default function LandingPage(props) {
   return (
@@ -23,21 +24,19 @@ export default function LandingPage(props) {
                     >
                       Vivo en valencia , España y me dedico a la programación y
                       el desarrollo de las aplicaciónes web.{" "}
-                    </h2>
-                  </div>
+                    </h2>                   
+                  </div>                  
                 </div>
+                 
               </div>
-            </div>
-            <Button className=" animate__animated animate__backInUp"
-              variant="contained"
-              style={{ background: "#dbe5ff", color: "red",marginTop:'10px' }}
-            >
-              <a href="#contact" className="" style={{'font-size':'14px !important','color':'red','text-decoration':'none'}}>Contanta me</a>
-            </Button>
+             
+            </div>                
           </div>
+          
         </div>
+       <ButtonCustomOne /> 
       </div>
-
+      
       <div className="custom-shape-divider-bottom-1664218420">
         <svg
           data-name="Layer 1"
