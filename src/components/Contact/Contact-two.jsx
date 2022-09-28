@@ -2,31 +2,31 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import "../../assets/contact-template/css/style.css";
+import { Divider, Grid } from "@mui/material";
 
 export default function ContactTwo() {
-    const form = useRef();
+  const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs
-        .sendForm(
-          "service_gg6f6ko",
-          "template_rt6185y",
-          form.current,
-          "sC22Ewz7U3KRr5By-"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            console.log("El mensaje ha sido enviado correctamente");
-            
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_gg6f6ko",
+        "template_rt6185y",
+        form.current,
+        "sC22Ewz7U3KRr5By-"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("El mensaje ha sido enviado correctamente");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <section id="contact" className="ftco-section">
@@ -46,9 +46,10 @@ export default function ContactTwo() {
                         method="POST"
                         id="contactForm"
                         className="contactForm"
-                        netlify
+                        netlify="true"
                         name="test"
-                        ref={form} onSubmit={sendEmail}
+                        ref={form}
+                        onSubmit={sendEmail}
                       >
                         <div className="row">
                           <div className="col-md-6">
@@ -121,6 +122,9 @@ export default function ContactTwo() {
                         </div>
                       </form>
                     </div>
+                  </div>
+                  <div className="col-md-3">
+                    hola
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch">
                     <div id="map"></div>

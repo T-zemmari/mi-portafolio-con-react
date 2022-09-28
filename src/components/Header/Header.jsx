@@ -6,7 +6,7 @@ import "../../assets/template-uno/vendor/boxicons/css/boxicons.min.css";
 import "../../assets/template-uno/vendor/glightbox/css/glightbox.min.css";
 import "../../assets/template-uno/vendor/swiper/swiper-bundle.min.css";
 import "../../assets/template-uno/css/style.css";
-
+import 'animate.css';
 import { useState } from "react";
 
 export default function Header() {
@@ -17,8 +17,7 @@ export default function Header() {
       {/*-- ======= Mobile nav toggle button ======= */}
       {/*<!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->*/}
       {/*<i className="bi bi-list mobile-nav-toggle d-lg-none"></i>*/}
-
-      <header id="header" className="d-flex flex-column justify-content-center">
+      <header id="header" className="d-flex flex-column justify-content-center animate__animated animate__backInDown">
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>

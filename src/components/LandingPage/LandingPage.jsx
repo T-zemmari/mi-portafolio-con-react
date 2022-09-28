@@ -8,7 +8,7 @@ export default function LandingPage(props) {
     <div className="contenedor-principal">
       <div className='Contenedor-saludo'>
 
-        <div className="contenedor-saludo-mas-imagen">
+        <div className="contenedor-saludo-mas-imagen justify-content-center animate__animated animate__backInRight">
           <div className="contenedor-saludo title-container">
             <h1 className='h1-custom h1-custom-3 '>Hi !! <span>Soy Tarek Zemmari</span></h1>
             <h2 className='custom-h2'>Full stack developer</h2>
