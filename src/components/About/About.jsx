@@ -20,29 +20,15 @@ const About = () => {
             </span>
             <br />
             Siempre he querido dedicarme a la programacion , lo tenia clarisimo
-            desde el bachiller, y para eso estudie informatica en la
-            universidad. <br />
-            Vine a españa para estudiar en la politecnica de valencia, pero al
-            final , curse mis estudios en la UCLM, no llegue a terminar la
-            carrera por motivos personales, pero mas adelante retome los
-            estudios, y obtuve mi titulos superior en mecatronica industrial.{" "}
+            desde el bachiller, y para eso estudie informatica , y despues gracias al bootcamp que he superado con cierta satifación diria yo, ahora me dedido a lo 
+            que mas me apasiona , que es el desarrollo web.
+
+            Me encanta crear aplicaciones web de cero , el proceso de buscar la mejor solución a lo que quiere un cliente , es muy motivador ya que  considero que cuando te gusta 
+            algo , no importan los retos, los disfrutas igual.
             <br />
-            <br />
-            Despues de varios años y sobre todo despues de trabajar como
-            mecatronico, me di cuenta al programar tanto en tiaportal,
-            robotstudio, y cnc, que hechaba de menos la programacion, asi que me
-            arme de valor , estudie un poco por mi cuenta , (soy muy
-            autodidacta), pero llego la hora de meterme de lleno en la
-            progrmacion, y elegi el <strong>
-              bootcamp de desarrollo web
-            </strong>{" "}
-            , que decir que estoy encantado, he aprendido muchos stacks, y lo
-            tengo mas claro todavia, Quiero Dedicarme al desarrollo web. Me
-            considero como perfil Frontend, y lo eligo porque me gusta el diseño
-            tambien, pero puedo programar tanto en Backend como en Frontend. He
-            hecho varios proyectos, algunos por mi cuenta, y otros en
-            colaboración con varios compañeros, siguiendo la filosofia agile,
-            con un scrum master.con git y gitFlow...
+            Ahora me dedico al desarrollo y maquetación , trabajo sobre todo con php tanto puro , como con su freamework symfony 5.4, y en el front trabajamos con 
+             html y jquery, aunque he realizado varios trabajos con react.         
+         
           </p>
         </div>
         <div className="about-img" data-aos="fade-left">
