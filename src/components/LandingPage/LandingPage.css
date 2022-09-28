@@ -11,7 +11,7 @@
 
 ::-webkit-scrollbar {
     display: none;
-  }
+}
 
 
 .contenedor-principal {
@@ -189,6 +189,16 @@
         align-items: center;
         padding: 10vh;
 
+    }
+
+    .titulo-tarek {
+        display: none;
+    }
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    #responsive-navbar-nav{
+        margin-left: 10px;
     }
 
 }

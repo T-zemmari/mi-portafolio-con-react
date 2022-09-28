@@ -12,7 +12,7 @@ export default function LandingPage(props) {
               Hi !! <span>Soy Tarek Zemmari</span>
             </h1>
             <h2 className="custom-h2">Full stack developer</h2>
-            <div className="">
+            <div className="titulo-tarek">
               <div className="measure center tc sans-serif black-80 absolute absolute--fill">
                 <div className="flex flex-column justify-center items-center h-100">
                   <div>
