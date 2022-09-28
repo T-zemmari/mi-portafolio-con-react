@@ -4,7 +4,7 @@ import ButtonCustomOne from "../Animations/Buttons/ButtonCustomOne";
 
 export default function LandingPage(props) {
   return (
-    <div className="contenedor-principal animate__animated animate__backInDown">
+    <div className="contenedor-principal animate__animated animate__backInDown" id="home">
       <div className="Contenedor-saludo">
         <div className="contenedor-saludo-mas-imagen justify-content-center" >
           <div className="contenedor-saludo title-container">

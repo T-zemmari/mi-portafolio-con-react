@@ -1,5 +1,6 @@
 import React, { useEffect ,useState } from "react";
 import About from "../../components/About/About";
+import CardProjects from "../../components/Cards/Card-projects";
 import ContactTwo from "../../components/Contact-two/Contact-two";
 import DividerCustom from "../../components/Divider/DividerCustom";
 import Header from "../../components/Header/Header";
@@ -29,7 +30,9 @@ export default function HomePage() {
       <NavBar/>      
       <LandingPage/>
       <DividerCustom section="Sobre mi"/>
-      <About/>  
+      <About/>
+      <DividerCustom section="Proyectos"/>  
+      <CardProjects/>
       <DividerCustom section="Contacto"/>
       <ContactTwo/>
     </>
