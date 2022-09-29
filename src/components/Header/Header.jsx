@@ -19,7 +19,7 @@ export default function Header() {
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>
-              <a href="#hero" className="nav-link scrollto active">
+              <a href="#home" className="nav-link scrollto active">
                 <i className="bx bx-home"></i> <span>Portada</span>
               </a>
             </li>
@@ -29,8 +29,8 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#resume" className="nav-link scrollto">
-                <i className="bx bx-file-blank"></i> <span>Resumen</span>
+              <a href="#Experience" className="nav-link scrollto">
+                <i className="bx bx-file-blank"></i> <span>Experiencia</span>
               </a>
             </li>
             <li>
@@ -39,8 +39,8 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#services" className="nav-link scrollto">
-                <i className="bx bx-server"></i> <span>Galeria</span>
+              <a href="#skills" className="nav-link scrollto">
+                <i className="bx bx-server"></i> <span>Skills</span>
               </a>
             </li>
             <li>

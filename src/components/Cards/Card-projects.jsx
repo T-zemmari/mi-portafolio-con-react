@@ -36,7 +36,7 @@ const ExpandMore = styled((props) => {
 export default function RecipeReviewCard() {
     return (
 
-        <div className="contenedor-proyectos" id="projects" data-aos="fade-down">
+        <div className="contenedor-proyectos" id="portfolio" data-aos="fade-down">
             <Card sx={{ maxWidth: 345 }} className="card-version-movil-column">
                 <CardHeader
                     avatar={
