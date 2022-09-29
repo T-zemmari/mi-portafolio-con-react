@@ -14,7 +14,7 @@ function CollapsibleExample() {
           <Nav className="me-auto">
             <Nav.Link href="#about" style={{color:'white'}}>Sobre Mi</Nav.Link>
             <Nav.Link href="#skills"style={{color:'white'}}>Skills</Nav.Link>
-            <Nav.Link href="#projects"style={{color:'white'}}>Proyectos</Nav.Link>      
+            <Nav.Link href="#portfolio"style={{color:'white'}}>Proyectos</Nav.Link>      
           </Nav>
           <Nav>
             <Nav.Link href="#contact"style={{color:'white'}}>Contacto</Nav.Link>          

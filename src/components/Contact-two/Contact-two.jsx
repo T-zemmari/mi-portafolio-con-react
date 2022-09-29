@@ -30,13 +30,13 @@ export default function ContactTwo() {
   };
   return (
     <>
-      <section id="contact" className="ftco-section">
+      <section id="contact" className="ftco-section" >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-12">
               <div className="wrapper">
-                <div className="row no-gutters mb-5">
-                  <div className="col-md-7">
+                <div className="row no-gutters mb-5" style={{background:'linear-gradient(90deg, rgb(0, 138, 241) 0%, rgb(70, 70, 70) 84%, rgb(0, 95, 255) 100%)'}}>
+                  <div className="col-md-7" >
                     <div className="contact-wrap w-100 p-md-5 p-4">
                       <h3 className="mb-4">Contacto</h3>
                       <div id="form-message-warning" className="mb-4"></div>
