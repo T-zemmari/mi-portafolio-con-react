@@ -14,7 +14,7 @@ const Experiencia = () => {
 
         <div className="experiencia-laboral" data-aos="fade-left">
           <h3>Full stack developer ( Perfumerias.com (Tedy business) )</h3>
-          <h4>JUNIO 2020 - ENERO 2021</h4>
+          <h4>ENERO 2021 - Actualmente</h4>
         </div>
         <div className="separador"></div>
 
