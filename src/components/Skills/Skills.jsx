@@ -13,7 +13,7 @@ const Skills = () => {
     }, [])
 
     return (
-
+<>
         <div className="skils-container" id='skills' >
 
             <div className="vista-skills" data-aos='fade-left'>
@@ -25,6 +25,7 @@ const Skills = () => {
 
             </div>
         </div>
+        </>
     )
 }
 
