@@ -29,7 +29,7 @@ export default function HomePage() {
       <NavBar />
       <Header />
       <LandingPage />
-     <DividerCustom section="Sobre mi" />
+      <DividerCustom section="Sobre mi" />
       <About />
       <DividerCustom section="Skills" />
       <Skills />

@@ -19,7 +19,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <section class="skills section-bg">
+      <section className="skills section-bg">
         <div className="container" data-aos="fade-up">
           <div className="row skills-content">
             <div className="col-lg-6">
