@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../../assets/contact-template/css/style.css";
-import Imagen from '../../assets/images/imagen_4.png';
-import './Contact-two.css';
+import "./Contact-two.css";
+import Envelop from '../../assets/images/envelop.png';
 
 
 export default function ContactTwo() {
@@ -30,13 +30,19 @@ export default function ContactTwo() {
   };
   return (
     <>
-      <section id="contact" className="ftco-section" >
+      <section id="contact" className="ftco-section">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-12">
               <div className="wrapper">
-                <div className="row no-gutters mb-5" style={{background:'linear-gradient(90deg, rgb(0, 138, 241) 0%, rgb(70, 70, 70) 84%, rgb(0, 95, 255) 100%)'}}>
-                  <div className="col-md-7" >
+                <div
+                  className="row no-gutters mb-5"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgb(0, 138, 241) 0%, rgb(70, 70, 70) 84%, rgb(0, 95, 255) 100%)",
+                  }}
+                >
+                  <div className="col-md-7">
                     <div className="contact-wrap w-100 p-md-5 p-4">
                       <h3 className="mb-4">Contacto</h3>
                       <div id="form-message-warning" className="mb-4"></div>
@@ -124,7 +130,11 @@ export default function ContactTwo() {
                       </form>
                     </div>
                   </div>
-               
+
+                  <div className="col-md-5" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                      <img style={{width:'30%'}}src={Envelop} alt="envelop" />
+                  </div>
+
                   <div className="col-md-5 d-flex align-items-stretch">
                     <div id="map"></div>
                   </div>
@@ -151,7 +161,12 @@ export default function ContactTwo() {
                       <div className="text">
                         <p>
                           <span>Phone:</span>{" "}
-                          <a href="tel://+34669217903" style={{textDecoration:'none'}}>+ 34 669217903</a>
+                          <a
+                            href="tel://+34669217903"
+                            style={{ textDecoration: "none" }}
+                          >
+                            + 34 669217903
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -164,7 +179,10 @@ export default function ContactTwo() {
                       <div className="text">
                         <p>
                           <span>Email:</span>{" "}
-                          <a href="tarek.zemmari@gmail.com" style={{textDecoration:'none'}}>
+                          <a
+                            href="tarek.zemmari@gmail.com"
+                            style={{ textDecoration: "none" }}
+                          >
                             tarek.zemmari@gmail.com
                           </a>
                         </p>
@@ -178,7 +196,10 @@ export default function ContactTwo() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Web:</span> <a style={{textDecoration:'none'}} href="#">tarek-zemmari.com</a>
+                          <span>Web:</span>{" "}
+                          <a style={{ textDecoration: "none" }} href="#">
+                            tarek-zemmari.com
+                          </a>
                         </p>
                       </div>
                     </div>
