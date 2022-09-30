@@ -52,7 +52,7 @@ export default function ContactTwo() {
             <div className="col-md-12">
               <div className="wrapper">
                 <div
-                  className="row no-gutters mb-5"
+                  className="row no-gutters mb-5 version-movil"
                   style={{
                     background:
                       "linear-gradient(90deg, rgb(0, 138, 241) 0%, rgb(70, 70, 70) 84%, rgb(0, 95, 255) 100%)",
@@ -148,7 +148,7 @@ export default function ContactTwo() {
                   </div>
 
                   <div
-                    className="col-md-5"
+                    className="col-md-5 contenedor-envelop"
                     style={{
                       display: "flex",
                       justifyContent: "center",
