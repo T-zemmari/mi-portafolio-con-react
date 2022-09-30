@@ -26,10 +26,10 @@ export default function HomePage() {
 
   return (
     <>
-      <Header />
       <NavBar />
+      <Header />
       <LandingPage />
-      <DividerCustom section="Sobre mi" />
+     <DividerCustom section="Sobre mi" />
       <About />
       <DividerCustom section="Skills" />
       <Skills />
