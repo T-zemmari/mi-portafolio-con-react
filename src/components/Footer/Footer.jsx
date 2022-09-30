@@ -1,48 +1,35 @@
 import React from "react";
 
+import "../../assets/template-uno/vendor/aos/aos.css";
+import "../../assets/template-uno/vendor/bootstrap/css/bootstrap.min.css";
+import "../../assets/template-uno/vendor/bootstrap-icons/bootstrap-icons.css";
+import "../../assets/template-uno/vendor/boxicons/css/boxicons.min.css";
+import "../../assets/template-uno/vendor/glightbox/css/glightbox.min.css";
+import "../../assets/template-uno/vendor/swiper/swiper-bundle.min.css";
+// import "../../assets/template-dos/css/style.css";
 
-{/* <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-<!-- Template Main CSS File -->
-<link href="assets/css/style.css" rel="stylesheet"> */}
 
 export default function Footer() {
   return (
     <>
       <footer id="footer">
         <div class="container">
-          <h3>Laura Thomson</h3>
-          <p>
-            Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-            eligendi fuga maxime saepe commodi placeat.
-          </p>
+          <h3>Tarek Zemmari Kissani</h3>
+       
+      
           <div class="social-links">
-            <a href="#" class="twitter">
-              <i class="bx bxl-twitter"></i>
+            <a href="https://github.com/T-zemmari" class="twitter" target={'_blank'}>
+              <i class="bx bxl-github"></i>
             </a>
-            <a href="#" class="facebook">
-              <i class="bx bxl-facebook"></i>
-            </a>
-            <a href="#" class="instagram">
-              <i class="bx bxl-instagram"></i>
-            </a>
-            <a href="#" class="google-plus">
-              <i class="bx bxl-skype"></i>
-            </a>
-            <a href="#" class="linkedin">
+          
+            <a href="https://www.linkedin.com/in/tarek-zemmari" class="linkedin" target={'_blank'}>
               <i class="bx bxl-linkedin"></i>
             </a>
           </div>
           <div class="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>Laura</span>
-            </strong>
-            .Derechos reservados
+              <span>Tarek</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             Designed by <a>Tarek Zemmari Kissani</a>

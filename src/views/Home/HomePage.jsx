@@ -4,6 +4,7 @@ import CardProjects from "../../components/Cards/Card-projects";
 import ContactTwo from "../../components/Contact-two/Contact-two";
 import DividerCustom from "../../components/Divider/DividerCustom";
 import Experiencia from "../../components/Experciencia/Experiencia";
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import LandingPage from "../../components/LandingPage/LandingPage";
 import NavBar from "../../components/Navbar/Navbar";
@@ -38,6 +39,7 @@ export default function HomePage() {
       <CardProjects />
       <DividerCustom section="Contacto" />
       <ContactTwo />
+      <Footer />
     </>
   );
 }

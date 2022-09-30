@@ -32,6 +32,23 @@
     height: 100px;
     margin: 20px;
 }
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #0563bb;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--bs-progress-bar-bg);
+    transition: var(--bs-progress-bar-transition);
+}
 
 @media (max-width: 960px) {
     .skils-container {
