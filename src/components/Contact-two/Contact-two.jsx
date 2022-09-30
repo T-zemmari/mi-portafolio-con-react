@@ -1,12 +1,23 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../../assets/contact-template/css/style.css";
 import "./Contact-two.css";
-import Envelop from '../../assets/images/envelop.png';
+import Envelop from "../../assets/images/envelop.png";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
+const MySwal = withReactContent(Swal);
 
 export default function ContactTwo() {
   const form = useRef();
+
+  // const [name,setName]=useState('');
+  // const [email,setEmail]=useState('');
+  // const [subject,setSubject]=useState('');
+  // const [message,setMaesage]=useState('');
+  const resetForm = () => {
+    form.current.reset();
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,6 +33,11 @@ export default function ContactTwo() {
         (result) => {
           console.log(result.text);
           console.log("El mensaje ha sido enviado correctamente");
+          // form.reset("El mensaje ha sido enviado correctamente");
+          resetForm();
+          MySwal.fire({
+            html: "Tu mensaje se ha enviado correctamente, muchas gracias",
+          });
         },
         (error) => {
           console.log(error.text);
@@ -131,8 +147,15 @@ export default function ContactTwo() {
                     </div>
                   </div>
 
-                  <div className="col-md-5" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                      <img style={{width:'30%'}}src={Envelop} alt="envelop" />
+                  <div
+                    className="col-md-5"
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img style={{ width: "30%" }} src={Envelop} alt="envelop" />
                   </div>
 
                   <div className="col-md-5 d-flex align-items-stretch">
