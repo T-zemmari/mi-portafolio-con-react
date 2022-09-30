@@ -9,26 +9,26 @@ const About = () => {
   }, []);
   return (
     <>
-    <section id="about" class="about">
-    <div class="container">
-      <div class="row">
+    <section id="about" className="about">
+    <div className="container">
+      <div className="row">
        
-        <div class="col-lg-8 pt-4 pt-lg-0 content"data-aos="fade-right" >
+        <div className="col-lg-8 pt-4 pt-lg-0 content"data-aos="fade-right" >
           <h3>UI/UX  &amp; Desarrollador web.</h3>
           
-          <div class="row">
-            <div class="col-lg-6">
+          <div className="row">
+            <div className="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+34 669217903</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Valencia </span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>País:</strong> <span>España</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+34 669217903</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Valencia </span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>País:</strong> <span>España</span></li>
               </ul>
             </div>
-            <div class="col-lg-6">
+            <div className="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Master:</strong> <span>Full stack developer</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tarek.zemmari@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Master:</strong> <span>Full stack developer</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tarek.zemmari@gmail.com</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
               </ul>
             </div>
           </div>
@@ -54,8 +54,8 @@ const About = () => {
           </em>
         </div>
 
-        <div class="col-lg-4" data-aos="fade-left">
-          <img src={MiFoto} class="img-fluid" alt=""/>
+        <div className="col-lg-4" data-aos="fade-left">
+          <img src={MiFoto} className="img-fluid" alt=""/>
         </div>
       </div>
 
