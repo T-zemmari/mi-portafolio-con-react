@@ -21,6 +21,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Card-projects.css";
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -61,6 +62,15 @@ export default function RecipeReviewCard() {
             React-redux,Nodejs Express MongoDB. <br />
           </Typography>
         </CardContent>
+        <Button variant="outlined" style={{ width: "100%" }}>
+          <a
+            href="https://github.com/T-zemmari/TEcMOVIL-Frontend"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            Codigo github
+          </a>
+        </Button>
       </Card>
 
       <Card sx={{ maxWidth: 345 }} className="card-version-movil-column">
@@ -91,6 +101,15 @@ export default function RecipeReviewCard() {
             <br />
           </Typography>
         </CardContent>
+        <Button variant="outlined" style={{ width: "100%" }}>
+          <a
+            href="https://github.com/T-zemmari/reactdent-f"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            Codigo github
+          </a>
+        </Button>
       </Card>
 
       <Card sx={{ maxWidth: 345 }} className="card-version-movil-column">
@@ -110,12 +129,21 @@ export default function RecipeReviewCard() {
             <span className="p-proyects">
               {" "}
               NET FILM , es una simulación de una plataforma de streaming,
-              Despues de su suscribirte; podras navegar por las distintas
-              vistas y ver información tanto de peliculas como de series, esta
-              hecha con React Redux Nodejs MongoDB y Express. <br /> <br />
+              Despues de su suscribirte; podras navegar por las distintas vistas
+              y ver información tanto de peliculas como de series, esta hecha
+              con React Redux Nodejs MongoDB y Express. <br /> <br />
             </span>
           </Typography>
         </CardContent>
+        <Button variant="outlined" style={{ width: "100%" }}>
+          <a
+            href="https://github.com/T-zemmari/Rentail-Movie"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+          >
+            Codigo github
+          </a>
+        </Button>
       </Card>
     </div>
   );
