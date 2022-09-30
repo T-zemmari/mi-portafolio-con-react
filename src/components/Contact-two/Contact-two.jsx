@@ -63,7 +63,7 @@ export default function ContactTwo() {
                                 className="form-control"
                                 name="name"
                                 id="name"
-                                placeholder="Name"
+                                placeholder="Nombre"
                               />
                             </div>
                           </div>
@@ -91,7 +91,7 @@ export default function ContactTwo() {
                                 className="form-control"
                                 name="subject"
                                 id="subject"
-                                placeholder="Subject"
+                                placeholder="Tema"
                               />
                             </div>
                           </div>
@@ -106,7 +106,7 @@ export default function ContactTwo() {
                                 id="message"
                                 cols="30"
                                 rows="4"
-                                placeholder="Message"
+                                placeholder="Mensaje"
                               ></textarea>
                             </div>
                           </div>

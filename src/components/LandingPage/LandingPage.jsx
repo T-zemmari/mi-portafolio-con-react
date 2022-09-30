@@ -21,8 +21,8 @@ export default function LandingPage(props) {
                       className="animated fadeInUp ease-out-circ d-1 a-2"
                       style={{ color: "white" }}
                     >
-                      Vivo en valencia , España y me dedico a la programación y
-                      el desarrollo de las aplicaciónes web.{" "}
+                      <em>Vivo en valencia , España y me dedico a la programación y
+                      el desarrollo de las aplicaciónes web.{" "}</em>
                     </h2>                   
                   </div>                  
                 </div>
