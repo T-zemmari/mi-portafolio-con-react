@@ -53,6 +53,16 @@
     background-color: #F8F8F8;
 }
 
+.nuevo-estilo-texto-experiencia {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+}
+
 @media (max-width: 960px){
 
     .experiencia-laboral{

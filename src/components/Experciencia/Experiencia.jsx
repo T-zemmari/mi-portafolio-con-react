@@ -8,43 +8,82 @@ const Experiencia = () => {
   }, []);
 
   return (
-    <div className="experiencia-container" id="Experience">
-      <div className="experiencia-datos">
-        <div className="separador"></div>
+    <>
+      <section id="Experience" class="resume">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="resume-title">Full stack developer</h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Perfumerias.com (Tedy business) )</h4>
+                <p>
+                  <em>Desarrollo web</em>
+                </p>
+                <ul>
+                  <li>ENERO 2021 - Actualmente</li>
+                </ul>
+              </div>
 
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Full stack developer ( Perfumerias.com (Tedy business) )</h3>
-          <h4>ENERO 2021 - Actualmente</h4>
-        </div>
-        <div className="separador"></div>
+              <h3 class="resume-title">Full stack developer</h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Match ready (Sedna media) )</h4>
+                <p>
+                  <em>Desarrollo web</em>
+                </p>
+                <ul>
+                  <li>JUNIO 2020 - ENERO 2021</li>
+                </ul>
+              </div>
 
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Full stack developer ( Match ready (Sedna media) )</h3>
-          <h4>JUNIO 2020 - ENERO 2021</h4>
-        </div>
-        <div className="separador"></div>
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Field Service Enginner ( Tintas Y Soporte Sl )</h3>
-          <h4>JUNIO 2018 - ENERO 2020</h4>
-        </div>
-        <div className="separador"></div>
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Electronico Encargado Departamento Tecnico (Universo Movil )</h3>
+              <h3 class="resume-title">Field Service Enginner</h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Tintas y soporte Sl )</h4>
+                <p>
+                  <em>Técnico mecatrónico superior.</em>
+                </p>
+                <ul>
+                  <li>JUNIO 2018 - ENERO 2020</li>
+                </ul>
+              </div>
+              <h3 class="resume-title" data-aos="fade-left">
+                Electronico Encargado Departamento Tecnico
+              </h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Universo movil )</h4>
+                <p>
+                  <em>Encargado del depatamento de electrónica.</em>
+                </p>
+                <ul>
+                  <li>FEBRERO 2015 - JUNIO 2018</li>
+                </ul>
+              </div>
 
-          <h4>FEBRERO 2015 - JUNIO 2018</h4>
+              <h3 class="resume-title">Administrador, Socio</h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Transportes Tayru )</h4>
+                <p>
+                  <em>Gestión administrativa y logistica.(Combinada con trabajos por cuenta ajena en universo movil)</em>
+                </p>
+                <ul>
+                  <li>FEBRERO 2010 - MARZO 2020</li>
+                </ul>
+              </div>
+
+              <h3 class="resume-title">Electrónico</h3>
+              <div class="resume-item pb-0" data-aos="fade-left">
+                <h4>( Rotananet )</h4>
+                <p>
+                  <em>Departamento de electrónica.</em>
+                </p>
+                <ul>
+                  <li>ENERO 2004 - JUNIO 2010</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="separador"></div>
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Administrador, Socio empresa transportes Tayru.</h3>
-          <h4>FEBRERO 2010 - MARZO 2020</h4>
-        </div>
-        <div className="separador"></div>
-        <div className="experiencia-laboral" data-aos="fade-left">
-          <h3>Electronico , SAT RotanaNet</h3>
-          <h4>FEBRERO 2004 - JUNIO 2010</h4>
-        </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 
