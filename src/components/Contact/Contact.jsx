@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_gg6f6ko",
-        "template_rt6185y",
+        "service_vbri4b8",
+        "template_9k463tc",
         form.current,
-        "sC22Ewz7U3KRr5By-"
+        "J5IKpSLiG5SGLK5pD"
       )
       .then(
         (result) => {
@@ -27,6 +27,7 @@ const Contact = () => {
         }
       );
   };
+  
 
   return (
     <StyledContactForm>

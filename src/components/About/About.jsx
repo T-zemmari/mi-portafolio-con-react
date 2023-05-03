@@ -11,24 +11,26 @@ const About = () => {
     <div className="about-container" id="about">
       <div className="contenedor-sobre-mi">
         <div className="about-desc" data-aos="fade-left">
+        <br />
           <h3>Bienvenidos a mi portfolio personal </h3>
+          <br />
           <p>
             <span>
-              Mi nombre es <strong>Tarek Zemmari</strong> , soy{" "}
-              <strong>Full Stack Developer</strong> , de nacionalidad española,
-              soy de Valencia y llevo en españa, desde los 19 años.
+              Soy <strong>Tarek Zemmari</strong>, un apasionado <strong>Full Stack Developer</strong> con una amplia experiencia en desarrollo y maquetación de aplicaciones web.
+              <br />
+               Conocido por mi enfoque en la búsqueda de soluciones innovadoras y mi capacidad para entregar proyectos de alta calidad en tiempo y forma.
             </span>
             <br />
-            Siempre he querido dedicarme a la programacion , lo tenia clarisimo
-            desde el bachiller, y para eso estudie informatica , y despues gracias al bootcamp que he superado con cierta satifación diria yo, ahora me dedico a lo 
-            que mas me apasiona , que es el desarrollo web.
-
-            Me encanta crear aplicaciones web de cero , el proceso de buscar la mejor solución a lo que quiere un cliente , es muy motivador ya que  considero que cuando te gusta 
-            algo , no importan los retos, los disfrutas igual.
             <br />
-            Ahora me dedico al desarrollo y maquetación , trabajo sobre todo con php tanto puro , como con su freamework symfony 5.4, y en el front trabajamos con 
-            html y jquery, aunque he realizado varios trabajos con react.        
-         
+            Mi pasión por la programación surgió desde muy joven, por lo que estudié Informática en el bachillerato.<br /> Continué mi formación y realicé un bootcamp que completé con éxito, lo que me permitió dedicarme profesionalmente al desarrollo web. 
+            <br />
+            Desde entonces, he trabajado con clientes de distintas industrias, entregando soluciones de alta calidad y adaptadas a sus necesidades.
+            <br />
+            <br />
+            Soy experto en el desarrollo web con PHP, tanto puro como con su framework Symfony 5.4. Además, tengo experiencia en la creación de sitios web utilizando HTML y jQuery, y también he trabajado con React en algunos proyectos.
+            <br />
+            <br />
+            Si estás buscando un desarrollador web apasionado y comprometido para tu próximo proyecto, ¡no dudes en contactarme! Me encantaría discutir cómo puedo ayudarte a alcanzar tus objetivos.
           </p>
         </div>
         <div className="about-img" data-aos="fade-left">

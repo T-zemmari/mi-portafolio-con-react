@@ -7,21 +7,26 @@ import './Contact-two.css';
 
 export default function ContactTwo() {
   const form = useRef();
+  const cancelCourse = () => { 
+    document.getElementById("contactForm").reset();
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_gg6f6ko",
-        "template_rt6185y",
+        "service_vbri4b8",
+        "template_9k463tc",
         form.current,
-        "sC22Ewz7U3KRr5By-"
+        "J5IKpSLiG5SGLK5pD"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log("El mensaje ha sido enviado correctamente");
+          alert("Gracias por contactar conmigo.")
+          cancelCourse();
         },
         (error) => {
           console.log(error.text);
@@ -137,7 +142,7 @@ export default function ContactTwo() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Direccíon:</span> Calle tirant lo blanch 21
+                          <span>Direccíon:</span> Calle tirant lo blanch 
                           46013 Valencia España
                         </p>
                       </div>
@@ -164,7 +169,7 @@ export default function ContactTwo() {
                       <div className="text">
                         <p>
                           <span>Email:</span>{" "}
-                          <a href="tarek.zemmari@gmail.com" style={{textDecoration:'none'}}>
+                          <a href="mailto:tarek.zemmari@gmail.com" style={{textDecoration:'none'}}>
                             tarek.zemmari@gmail.com
                           </a>
                         </p>
